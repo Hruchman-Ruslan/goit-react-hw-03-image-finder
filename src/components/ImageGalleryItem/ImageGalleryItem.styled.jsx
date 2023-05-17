@@ -4,7 +4,7 @@ export const Item = styled.li``;
 
 export const Img = styled.img`
   width: 370px;
-  height: 100%;
+  height: 280px;
 
   border-radius: 15px;
 
