@@ -2,7 +2,6 @@ import styled from '@emotion/styled';
 
 export const Container = styled.div`
   max-width: 1200px;
-  height: 100vh;
 
   padding-left: 20px;
   padding-right: 20px;
@@ -13,6 +12,7 @@ export const Container = styled.div`
   margin-bottom: auto;
 
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;

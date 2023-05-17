@@ -6,6 +6,21 @@ export const GlobalStyles = css`
     scroll-behavior: smooth;
   }
   body {
+    ::-webkit-scrollbar {
+      width: 12px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: linear-gradient(to top, #00ffff, #ff00ec);
+
+      border-radius: 20px;
+    }
+
+    ::-webkit-input-placeholder {
+      color: aqua;
+      filter: drop-shadow(0 0 20px #00ffff);
+    }
+
     margin: 0;
     background-color: black;
     font-size: 32px;
