@@ -17,7 +17,6 @@ export class App extends Component {
     isLoading: false,
     error: '',
     totalImages: 0,
-    modalData: null,
     showModal: false,
     largeImageURL: '',
     tags: '',
